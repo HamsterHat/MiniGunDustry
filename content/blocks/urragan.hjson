@@ -33,16 +33,29 @@ thorium: {
         damage: 6500
         splashDamage: 6500
         splashDamageRadius: 40
-	fragBullets: 500
+	fragBullets: 250
 	fragBullet: {
 				type: BasicBulletType
-				damage: 500
+				damage: 0
 				width: 2
 				height: 2
-				lifetime: 600
-				speed: 0
+				lifetime: 16
+				speed: 5
 				status: none
 				statusDuration: 600
+				fragBullets: 1
+				fragBullet: {
+					type: BasicBulletType
+					damage: 3
+					width: 2
+					height: 2
+					lifetime: 600
+					speed: 0
+					status: melting
+					statusDuration: 600
+					frontColor: 67ff33
+					backColor: 67ff33
+				}
 	}
 }
 }

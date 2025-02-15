@@ -1,0 +1,9 @@
+name: "mgd"
+displayName: "MINIGUNDUSTRY"
+"author": "[red]a[blue]l[white]ex"
+description: "Мод для лучшего друга"
+version: "1.0"
+minGameVersion: "136"
+dependencies: []
+hidden: false
+ 

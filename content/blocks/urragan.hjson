@@ -1,0 +1,63 @@
+type: ItemTurret
+name: Урган
+description: "[red]☢️☢️☢️ПРИМЕНЯТЬ ТОЛЬКО В КРАЙНИХ СЛУЧАЯХ☢️☢️☢️[]"
+size: 5
+outlineIcon: false
+health: 1000
+rotateSpeed: 2.6
+targetAir: true
+targetGround: true
+range: 400
+reload: 900
+shootCone: 1
+shootSound: shootBig
+inaccuracy: 3.5
+
+ammoTypes: {
+thorium: {
+	type: BasicBulletType
+        lifetime: 80
+        pierce: true
+        width: 16
+        height: 8
+        despawnEffect: massiveExplosion
+        hitEffect: massiveExplosion
+        shootEffect: shootBig2
+        ammoMultiplier: 1
+        smokeEffect: shootBigSmoke
+        collidesAir: true
+        statusDuration: 3600
+        status: melting
+        hittable: false
+        speed: 5
+        damage: 6500
+        splashDamage: 6500
+        splashDamageRadius: 40
+	fragBullets: 500
+	fragBullet: {
+				type: BasicBulletType
+				damage: 500
+				width: 2
+				height: 2
+				lifetime: 600
+				speed: 0
+				status: none
+				statusDuration: 600
+	}
+}
+}
+requirements: [
+	thorium/200
+	almaz/50
+	titanium/2000
+	copper/300000
+	surge-alloy/1000
+	zoloto/30
+]
+category: turret
+research: nuke
+
+
+
+
+

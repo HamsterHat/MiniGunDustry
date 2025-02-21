@@ -1,2 +1,1 @@
-#Mod for best friend
-What?
+Mod for best friend\nWhat?

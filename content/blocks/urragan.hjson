@@ -60,15 +60,11 @@ thorium: {
 }
 }
 requirements: [
-	thorium/200
 	almaz/50
-	titanium/2000
-	copper/300000
-	surge-alloy/1000
 	zoloto/30
 ]
 category: turret
-research: nuke
+research: scatter
 
 
 

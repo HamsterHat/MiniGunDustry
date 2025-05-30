@@ -1,5 +1,6 @@
 name: Золято
-description: Пунь крутёй рисурс
-cost: 2
+description: Ценный мягкий металл
+details: "[yellow]О КАК БЛЕСТИТ!!!"
+cost: 1.5
 color: ebeb34
-hardness: 1
+hardness: 2

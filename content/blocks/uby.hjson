@@ -1,0 +1,7 @@
+type: Drill
+name: Усиленная буровая установка
+tier: 5
+drillTime: 60
+size: 5
+consumes: [power: 2]
+health: 2500

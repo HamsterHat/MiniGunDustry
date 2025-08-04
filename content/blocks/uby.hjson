@@ -5,3 +5,9 @@ drillTime: 60
 size: 5
 consumes: [power: 2]
 health: 2500
+requirements: [
+copper/120
+thorium/60
+silicon/65
+zoloto/25
+]

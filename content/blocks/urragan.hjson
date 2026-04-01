@@ -27,7 +27,11 @@ thorium: {
         smokeEffect: shootBigSmoke
         collidesAir: true
         statusDuration: 3600
-        status: melting
+        status: {
+name: KR
+damage: 1
+effect: freezing
+}
         hittable: false
         speed: 5
         damage: 6500

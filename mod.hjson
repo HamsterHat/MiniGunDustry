@@ -1,9 +1,10 @@
 name: "mgd"
 displayName: "MINIGUNDUSTRY"
 "author": "[red]a[blue]l[white]ex"
-description: "wait what"
+description: "this mod sended to heaven;)"
 version: "1.0"
 minGameVersion: "136"
 dependencies: []
-hidden: false
+hidden: true
+hideBrowser: true
  
